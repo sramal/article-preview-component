@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/styles.css">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+<body>
+
+  <main>
+    <section class="cards">
+
+      <!-- Card 1 - Image on the left -->
+      <div class="card card-image">
+        <img src="images/drawers.jpg" alt="Drawers" />
+      </div>
+
+
+      <!-- Card 2 - Text on the right and link -->
+      <div class="card card-paragraph-links">
+        <!-- Car 2.1 -->
+        <div class="card-paragraph">
+            <h4 class="paragraph-bold">
+              Shift the overall look and feel by adding these wonderful 
+              touches to furniture in your home
+            </h4>
+
+
+            <p class="paragraph-normal">
+              Ever been in a room and felt like something was missing? Perhaps 
+              it felt slightly bare and uninviting. I’ve got some simple tips 
+              to help you make any room feel complete.
+            </p>
+        </div>
+
+
+        <!-- Card 2.2 - profile and social media links -->
+        <div class="card-footer">
+          <div class="footer">
+            <img class="footer-avatar" src="images/avatar-michelle.jpg" alt="Drawers" />
+            <div>
+              <p class="avatar-name">Michelle Appleton</p>
+              <p class="avatar-date">28 Jun 2020</p>
+            </div>
+            <div class="footer-links">
+              <div class="links-social">
+                <span>SHARE</span>
+                <a><img src="./images/icon-facebook.svg" /></a>
+                <a><img src="./images/icon-twitter.svg" /></a>
+                <a><img src="./images/icon-pinterest.svg" /></a>
+              </div>
+              <img id="link-share" class="share-image" src="images/icon-share.svg" alt="Share icon" />
+            </div>
+          </div>
+
+
+          <!-- Overlay when the screen size is below 600. This part of
+             card 3 -->
+          <div class="footer-overlay">
+                <span>SHARE</span>
+                <a><img src="./images/icon-facebook.svg" /></a>
+                <a><img src="./images/icon-twitter.svg" /></a>
+                <a><img src="./images/icon-pinterest.svg" /></a>
+                <img id="link-share-overlay" class="share-image-overlay" src="images/icon-share.svg" alt="Share icon" />
+          </div>
+        </div>
+      </div>
+      
+    </section>    
+  </main>
+  
+
+  <script src="index.js"></script>
+</body>
+</html>
