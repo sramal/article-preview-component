@@ -184,6 +184,10 @@ body {
     grid-row: 1 / span 1;
   }
 
+  .card-image img {
+    border-radius: 5px 0 0 5px;
+  }
+
   .card-paragraph-links {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
